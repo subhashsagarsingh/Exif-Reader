@@ -29,3 +29,18 @@ The frontend of **Exif Reader**, a web application that allows users to upload i
 ```bash
 git clone https://github.com/subhashsagarsingh/Exif-Reader.git
 cd frontend
+
+### 2. Install dependencies
+npm install
+
+
+### 3. Set up environment variables
+Create a .env file in the root of the frontend folder:
+VITE_API_BASE_URL=http://localhost:4000
+VITE_API_EXIF_URL=http://localhost:4000/api/exif
+
+
+### 4. Run the project
+npm run dev
+
+
